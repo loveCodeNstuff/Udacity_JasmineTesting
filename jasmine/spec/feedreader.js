@@ -92,7 +92,7 @@ $(function() {
       beforeEach(function(done) {
        loadFeed(0, function() {
          firstFeed = $('.feed .entry')[0].innerText;
-         loadFeed(0, function() {
+         loadFeed(1, function() {
            secondFeed= $('.feed .entry')[1].innerText;
            done();
          });
